@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	package="com.chievent.designlibdemo"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name=".MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity android:name=".navigationdrawer.DrawerActivity">
+		</activity>
+		<activity
+			android:name=".navigationdrawer.NavDrawerActivity"
+			android:label="@string/title_activity_nav_drawer"
+			android:theme="@style/AppTheme.DrawerNoActionBar">
+		</activity>
+		<activity android:name=".floatinglabelofedittext.FloatingLabelActivity">
+		</activity>
+		<activity android:name=".floatingactionbutton.FloatingActionActivity">
+		</activity>
+		<activity android:name=".snackbar.SnackbarActivity">
+		</activity>
+		<activity
+			android:name=".tablayout.TabLayoutActivity"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
+		<activity android:name=".coordinatorlayout.CoorFABActivity">
+		</activity>
+		<activity
+			android:name=".coordinatorlayout.CoorAppbarActivity"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
+		<activity
+			android:name=".coordinatorlayout.CoorCollapseToolbarActivity"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
+		<activity
+			android:name=".coordinatorlayout.CoorCollapseToolbarActivityParallax"
+			android:theme="@style/AppTheme.DrawerNoActionBar">
+			<!--android:theme="@style/AppTheme.NoActionBar">-->
+		</activity>
+	</application>
+
+</manifest>
